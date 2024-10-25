@@ -14,7 +14,7 @@ let DB_URL='mongodb://127.0.0.1:27017/Project1'
 console.log(DB_URL)
 
 //connect to database
-mongoose.connect('mongodb+srv://soumyasri002:soumya@cluster0.xhum7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Project1')
+mongoose.connect('')
 .then(()=>{console.log("Db connection success")})
 .catch(err=>{console.log("err in DB connection",err)})
 
